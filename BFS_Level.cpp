@@ -8,6 +8,7 @@ int dist[101] = {0};
 void bfs(int s) {
 	queue <int> q;
 	visited [s] = 1;
+       //dada yo  
 	q.push(s);
 	while(!q.empty()) {
 		s = q.front();
@@ -22,7 +23,7 @@ void bfs(int s) {
 		}
 	}
 }
-
+//hggfgfgggfggg
 int main () {
 	int n,m;
 	cin>>n>>m;
@@ -35,3 +36,4 @@ int main () {
 	bfs(0);
 	for (int i=0;i<n;i++) cout<<dist[i]<<" ";
 }
+//gffxfhghgv
